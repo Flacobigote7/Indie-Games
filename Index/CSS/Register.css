@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('../Imagenes/XPW.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+.header-banner {
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #777777;
+}
+
+.header-banner h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+
+.registration-table {
+    background-color: #e8e8e8;
+    border-collapse: collapse;
+    border: 1px solid #444444;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.registration-table td {
+    border: 1px solid #666666;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+.label-cell {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+    width: 42%;
+    color: #000000;
+}
+
+.input-cell input {
+    width: 100%;
+    padding: 3px 5px;
+    font-size: 14px;
+    border: 1px solid #7a7a7a;
+    border-radius: 2px;
+    outline: none;
+    background-color: #ffffff;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-secondary {
+    background-color: #e1e1e1;
+    border: 1px solid #777777;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: #e1e1e1;
+    border: 1px solid #777777;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+    background-color: #d4d4d4;
+}
+
+.table-footer {
+    text-align: center;
+    padding: 12px !important;
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="css/Register.css">
+</head>
+<body>
+
+    
+    <header class="header-banner">
+        <h1>Registro de Usuario</h1>
+        
+    </header>
+
+    
+    <main class="main-container">
+        <form action="registro.php" method="post">
+            <table class="registration-table">
+                <tbody>
+                    <tr>
+                        <td class="label-cell"><label for="usuario">Nombre de usuario:</label></td>
+                        <td class="input-cell"><input type="text" id="usuario" name="usuario"></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell"><label for="documento">Documento:</label></td>
+                        <td class="input-cell"><input type="text" id="documento" name="documento"></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell"><label for="direccion">Dirección:</label></td>
+                        <td class="input-cell"><input type="text" id="direccion" name="direccion"></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell"><label for="telefono">Teléfono:</label></td>
+                        <td class="input-cell"><input type="tel" id="telefono" name="telefono"></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell"><label for="correo">Correo electrónico:</label></td>
+                        <td class="input-cell"><input type="email" id="correo" name="correo"></td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell"><label for="password">Contraseña:</label></td>
+                        <td class="input-cell"><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="table-footer">
+                            <div class="button-container">
+                                <a href="wireframeLogin.html"><input type="button" value="¿Ya tienes cuenta? Iniciar sesión" style="font-size: 11px; padding: 4px 8px;"></a>
+                                <button type="submit" class="btn-primary">Registrarse</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+
+</body>
+</html>
